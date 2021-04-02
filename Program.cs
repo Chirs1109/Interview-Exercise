@@ -20,14 +20,19 @@ class Program
     }
     static void Main(string[] args)
     {
+        string phrase = "I want something out of This world";
+        string[] words = phrase.Split(' ');
 
-        string[] strArr = new[] { "Something", "out", "of", "This", "world" };
-        List<string> newsentence = new List<string>();
+        //Keep this code for testing
+        //string[] strArr = new[] { "Something", "out", "of", "This", "world" };
+        //List<string> newsentence = new List<string>();
         StringBuilder builder = new StringBuilder();
-        foreach (string word in strArr)
-        {
-            newsentence.Add(word);
+        foreach (string word in words)
 
+          //  foreach (string word in words)
+
+        {
+           
             string newword = null;
             if (word.Length > 2)
             {
