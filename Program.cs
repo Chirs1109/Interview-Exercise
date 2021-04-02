@@ -53,13 +53,10 @@ class Program
                 }
                 distinctCount = count + samecharcount;
 
-                //distinctCount = word.Distinct().Count();
-                //}
                 char firstChar = word[0];
                 char lastChar = word[word.Length - 1];
                 newword = String.Concat(firstChar, distinctCount.ToString(), lastChar);
-                //newsentence.Add(newword);
-                Console.Write(newword + " ");
+                 Console.Write(newword + " ");
             }
 
             else
