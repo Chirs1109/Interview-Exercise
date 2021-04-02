@@ -23,8 +23,6 @@ class Program
 
         string[] strArr = new[] { "Something", "out", "of", "This", "world" };
         List<string> newsentence = new List<string>();
-        //string line = string.Join(" ", newsentence.ToArray());
-        //Console.WriteLine(line);
         StringBuilder builder = new StringBuilder();
         foreach (string word in strArr)
         {

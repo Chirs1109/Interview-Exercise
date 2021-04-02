@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cwilliam53\\source\\repos\\Interview Exercise\\Interview Exercise.csproj",
+      "projectUniqueName": "C:\\Repo\\Interview-Exercise\\Interview Exercise.csproj",
       "projectName": "Interview Exercise",
-      "projectPath": "C:\\Users\\cwilliam53\\source\\repos\\Interview Exercise\\Interview Exercise.csproj",
+      "projectPath": "C:\\Repo\\Interview-Exercise\\Interview Exercise.csproj",
       "packagesPath": "C:\\Users\\cwilliam53\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cwilliam53\\source\\repos\\Interview Exercise\\obj\\",
+      "outputPath": "C:\\Repo\\Interview-Exercise\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,0 +1,13 @@
+C:\Repo\Interview-Exercise\bin\Debug\netcoreapp3.1\Interview Exercise.exe
+C:\Repo\Interview-Exercise\bin\Debug\netcoreapp3.1\Interview Exercise.deps.json
+C:\Repo\Interview-Exercise\bin\Debug\netcoreapp3.1\Interview Exercise.runtimeconfig.json
+C:\Repo\Interview-Exercise\bin\Debug\netcoreapp3.1\Interview Exercise.runtimeconfig.dev.json
+C:\Repo\Interview-Exercise\bin\Debug\netcoreapp3.1\Interview Exercise.dll
+C:\Repo\Interview-Exercise\bin\Debug\netcoreapp3.1\Interview Exercise.pdb
+C:\Repo\Interview-Exercise\obj\Debug\netcoreapp3.1\Interview Exercise.csprojAssemblyReference.cache
+C:\Repo\Interview-Exercise\obj\Debug\netcoreapp3.1\Interview Exercise.AssemblyInfoInputs.cache
+C:\Repo\Interview-Exercise\obj\Debug\netcoreapp3.1\Interview Exercise.AssemblyInfo.cs
+C:\Repo\Interview-Exercise\obj\Debug\netcoreapp3.1\Interview Exercise.csproj.CoreCompileInputs.cache
+C:\Repo\Interview-Exercise\obj\Debug\netcoreapp3.1\Interview Exercise.dll
+C:\Repo\Interview-Exercise\obj\Debug\netcoreapp3.1\Interview Exercise.pdb
+C:\Repo\Interview-Exercise\obj\Debug\netcoreapp3.1\Interview Exercise.genruntimeconfig.cache
