@@ -16,7 +16,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        string phrase = "Something out of This world somethEyu FmLA I nEED";
+        string phrase = "Something out of This world that is smOoth";
         string[] words = phrase.Split(' ');
 
         string newsentence = null;
