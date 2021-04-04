@@ -14,63 +14,44 @@ using System.Text;
 
 class Program
 {
-    public void TheCountOfDistinctChars(string[] args)
-    {
-
-    }
     static void Main(string[] args)
     {
-        string phrase = "I want something out of This world";
+        string phrase = "Something out of This world somethEyu FmLA I nEED";
         string[] words = phrase.Split(' ');
 
-        //Keep this code for testing
-        //string[] strArr = new[] { "Something", "out", "of", "This", "world" };
-        //List<string> newsentence = new List<string>();
-        StringBuilder builder = new StringBuilder();
+        string newsentence = null;
+        int count = 0;
+
         foreach (string word in words)
-
-          //  foreach (string word in words)
-
         {
-           
-            string newword = null;
+            int distinctCount = 0;
+
+            string firstChar = word.Substring(0, 1);
+            string lastChar = word.Substring(word.Length - 1, 1);
+
             if (word.Length > 2)
             {
-                int distinctCount = 0;
-                int k = word.Length;
-                int samecharcount = 0;
-                int count = 0;
-
-                for (int i = 1; i < k - 2; i++)
-                {
-
-                    if (word.ElementAt(i) != word.ElementAt(i + 1))
-                    {
-
-                        count++;
-
-                    }
-                    else
-                    {
-                        samecharcount++;
-
-                    }
-                }
-                distinctCount = count + samecharcount;
-
-                char firstChar = word[0];
-                char lastChar = word[word.Length - 1];
-                newword = String.Concat(firstChar, distinctCount.ToString(), lastChar);
-                 Console.Write(newword + " ");
+                string middlechars = word.Substring(1, word.Length - 2);
+                string mid_chars = middlechars.ToLower();
+                distinctCount = mid_chars.Distinct().Count();
             }
 
+            if (count == 0)
+            {
+                count++;
+            }
             else
             {
-
-                Console.Write(builder.Append(word).Append(" "));
+                newsentence += " ";  //only concatenate space after first word
             }
 
+            newsentence += String.Concat(firstChar, distinctCount.ToString(), lastChar);
+
         }
+        Console.Write(newsentence);
+
         Console.ReadKey();
+
     }
 }
+
